@@ -1,0 +1,3 @@
+RewriteEngine on
+RewriteRule ^ejs/?$ ejs/ejs.php?args=full [L]
+RewriteRule ^ejs/([a-z\+]+)$ ejs/ejs.php?args=$1 [L]

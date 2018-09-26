@@ -1,0 +1,1 @@
+Array.prototype.indexOfIgnoreCase=function(a){if(a===void 0||""==a)throw new TypeError("needle cannot be empty");for(let b=0;b<this.length;b++)if("string"==typeof this[b]&&this[b].toLowerCase()==(a+"").toLowerCase())return b;return!1};
